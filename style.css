@@ -1,0 +1,464 @@
+body{
+    background-color: whitesmoke;
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.sidetext{
+    line-height: 60px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.sidetext a{
+    text-decoration: none;
+    padding-inline-start: 50px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.63);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.sidetext a:hover{
+    color: #75a53d;
+    text-decoration: line-through;
+    text-decoration-thickness: 0.0.1px;
+}
+.logo{
+    line-height: 60px;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: normal;
+}
+.sideicons{
+   margin-top: 20px;
+   cursor: default;
+   padding-right: 100px;
+}
+.sideicons img{
+    margin-right: 50px;
+    transform: translateY(0);
+    transition: transform 0.2s ease-in-out;
+}
+.sideicons img:hover{
+    transform: translateY(-3px);
+}
+.speac{
+    width: 100%;
+    height: 60px;
+}
+.continer{
+    width: 100%;
+    height: 400px;
+    background: #e9e7e4;
+    display: flex;
+    justify-content: space-between;
+}
+.sidetextcon{
+    margin-left: 100px;
+    margin-top: 110px;
+    cursor: default;
+}
+.sidetextcon h3{
+    font-size: 12px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.514);
+    font-family: 'Poppins', sans-serif;
+}
+.sidetextcon h1{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+.shop_plant{
+    width: 150px;
+    height: 50px;
+    border-width: 2px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #e9e7e4;
+    border-color: #75a53d;
+    background-color: #75a53d;
+    border-style: solid;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: 1.5s;
+}
+.shop_plant:hover{
+    color: rgb(0, 0, 0);
+    background-color: #74a53d18;
+    border-color: black;
+}
+.sidephotocon{
+    width: 550px;
+    height: 400px;
+    background: url("image/ggh.svg");
+    margin-right: 80px;
+    margin-top: 40px;
+    min-width: 550px;
+    min-height: 400px;
+}
+.continersideAbout{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 50px 10px 50px;
+    background: #e9e7e4;
+    height: 250px;
+}
+.continersideAbout .sidediv{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 100px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: default;
+    transform: translateY(0);
+    transition: transform 0.2s ease-in-out;
+}
+.sidediv:hover{
+    transform: translateY(-20px);
+}
+
+.sidediv img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+.sidediv h3{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.consideshope{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.sidetextconsideshope{
+    margin-top: 400px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+.divlinesidetextcon{
+    width: 100px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #75a53d;
+    margin: auto;
+    margin-top: 5px;
+}
+.shopsidecontiner{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 10px;
+    padding: 10px 50px 10px 50px; 
+}
+.shopsidecontiner .divsideshop{
+    width: auto;
+    height: 400px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(0);
+    transition: transform 0.2s ease-in-out;
+}
+.shopsidecontiner .divsideshop:hover{
+    transform: translateY(-20px);
+}
+.sidephotodivcon{
+    min-height: 200px;
+    min-width: 200px;
+    margin-top: 30px;
+}
+.sidetextdivcon{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    cursor: default;
+}
+.sidetextdivcon h4{
+    color: rgba(0, 0, 0, 0.527);
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+.consideabout{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.sidetextconsideabout{
+    margin-top: 400px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+.divlinesidetextabou{
+    width: 100px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #75a53d;
+    margin: auto;
+    margin-top: 5px;
+}
+.shopsideabout{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px; 
+    margin-top: 50px;
+}
+.sidetextabout{
+    width: 600px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.sidetextabout h1{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+.sidetextabout h3{
+    text-align: center;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.705);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 50px;
+    cursor: default;
+}
+.sidephotoinabout{
+    width: 450px;
+    height: 500px;
+    background-image: url("image/image_about.svg");
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.sidetextaboutbutton{
+    width: 150px;
+    height: 50px;
+    border-width: 2px;
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    background-color: #74a53d18;
+    border-color: black;
+    border-style: solid;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: 1.5s;
+    cursor: default;
+    margin-left: 200px;
+}
+.sidetextaboutbutton:hover{
+    color: #e9e7e4;
+    border-color: #75a53d;
+    background-color: #75a53d;
+}
+
+.sideenddiv{
+    width: 100%;
+    height: 100px;
+    background-color: #75a53d;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    line-height: 100px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+@media (max-width: 1200px) {
+    .header {
+        gap: 50px;
+        flex-direction: row;
+        gap: 50px;
+        justify-content: space-between;
+    }
+
+    .sideicons {
+        padding-right: 50px;
+    }
+
+    .continer {
+        flex-direction: column;
+    }
+
+    .sidephotocon {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .sidetextcon, .shopsidecontiner {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .shopsidecontiner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sideenddiv {
+        font-size: 12px;
+        line-height: 80px;
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        height: auto;
+        flex-direction: row;
+        gap: 50px;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .sidetext a {
+        padding-inline-start: 20px;
+        font-size: 10px;
+        display: none;
+    }
+
+    .logo {
+        font-size: 23px;
+        margin-left: 5px;
+        margin-right: 100px;
+    }
+
+    .sideicons img {
+        margin-right: 20px;
+        margin-right: 5px;
+    }
+
+    .speac {
+        height: 40px;
+    }
+
+    .sidetextcon h1 {
+        font-size: 24px;
+    }
+
+    .sidetextcon h3 {
+        font-size: 10px;
+    }
+
+    .shop_plant {
+        width: 120px;
+        height: 40px;
+    }
+
+    .continer {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .continersideAbout {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .continersideAbout .sidediv {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .sidephotoinabout {
+        width: 100%;
+        height: auto;
+    }
+.consideabout{
+    display: none;
+}
+}
+
+@media (max-width: 600px) {
+    .sidetext a {
+        font-size: 8px;
+    }
+
+    .logo {
+        font-size: 23px;
+        margin-left: 5px;
+    }
+
+    .sideicons img {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .sidetextcon h1 {
+        font-size: 20px;
+    }
+
+    .sidetextcon h3 {
+        font-size: 8px;
+    }
+
+    .shop_plant {
+        width: 100px;
+        height: 30px;
+    }
+
+    .continer {
+        padding: 10px;
+    }
+
+    .consideabout{
+        display: none;
+    }
+
+    .sideenddiv {
+        font-size: 10px;
+        line-height: 60px;
+    }
+}
